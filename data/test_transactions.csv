@@ -1,0 +1,6 @@
+transaction_id,user_id,amount,category,status,timestamp,merchant
+TXN061,USR101,199.99,Electronics,completed,2024-01-27 09:10:00,Apple
+TXN062,USR103,49.99,Groceries,completed,2024-01-27 10:15:30,Walmart
+TXN063,USR105,899.00,Travel,completed,2024-01-27 11:20:45,Delta Airlines
+TXN064,USR107,,, failed,2024-01-27 12:05:10,Amazon
+TXN065,USR109,75.50,Food,completed,2024-01-27 13:30:00,Starbucks

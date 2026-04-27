@@ -1,0 +1,61 @@
+transaction_id,user_id,amount,category,status,timestamp,merchant
+TXN001,USR101,250.00,Electronics,completed,2024-01-15 10:23:45,BestBuy
+TXN002,USR102,89.99,Groceries,completed,2024-01-15 11:05:12,Walmart
+TXN003,USR103,,-,failed,2024-01-15 11:45:33,Amazon
+TXN004,USR104,1200.50,Electronics,completed,2024-01-15 12:10:05,Apple
+TXN005,USR101,45.00,Food,completed,2024-01-15 13:22:18,McDonalds
+TXN006,USR105,320.00,Clothing,completed,2024-01-16 09:15:44,Nike
+TXN007,USR106,,-,failed,2024-01-16 09:55:22,Target
+TXN008,USR107,75.50,Groceries,completed,2024-01-16 10:30:11,Kroger
+TXN009,USR108,500.00,Travel,completed,2024-01-16 11:00:00,Delta Airlines
+TXN010,USR109,22.00,Food,completed,2024-01-16 12:45:30,Starbucks
+TXN011,USR110,899.99,Electronics,completed,2024-01-17 08:10:05,BestBuy
+TXN012,USR101,135.00,Clothing,completed,2024-01-17 09:20:15,Zara
+TXN013,USR102,,-,failed,2024-01-17 10:05:45,Walmart
+TXN014,USR103,60.00,Groceries,completed,2024-01-17 11:30:22,Trader Joes
+TXN015,USR104,200.00,Travel,completed,2024-01-17 13:00:10,Uber
+TXN016,USR105,15.99,Food,completed,2024-01-18 08:45:00,Chipotle
+TXN017,USR106,,-,failed,2024-01-18 09:30:55,Amazon
+TXN018,USR107,780.00,Electronics,completed,2024-01-18 10:15:33,Samsung
+TXN019,USR108,95.00,Clothing,completed,2024-01-18 11:05:44,H&M
+TXN020,USR109,430.00,Travel,completed,2024-01-18 12:20:10,Airbnb
+TXN021,USR110,55.00,Groceries,completed,2024-01-19 09:00:00,Walmart
+TXN022,USR101,300.00,Electronics,completed,2024-01-19 10:10:10,Apple
+TXN023,USR102,18.50,Food,completed,2024-01-19 11:25:35,Starbucks
+TXN024,USR103,,-,failed,2024-01-19 12:00:00,Target
+TXN025,USR104,670.00,Clothing,completed,2024-01-19 13:15:20,Gucci
+TXN026,USR105,88.00,Groceries,completed,2024-01-20 08:30:00,Kroger
+TXN027,USR106,1500.00,Travel,completed,2024-01-20 09:45:50,American Airlines
+TXN028,USR107,45.99,Food,completed,2024-01-20 10:55:15,Dominos
+TXN029,USR108,,-,failed,2024-01-20 11:40:00,BestBuy
+TXN030,USR109,220.00,Clothing,completed,2024-01-20 13:00:30,Adidas
+TXN031,USR110,110.00,Electronics,completed,2024-01-21 08:00:00,Amazon
+TXN032,USR101,75.00,Groceries,completed,2024-01-21 09:10:45,Whole Foods
+TXN033,USR102,560.00,Travel,completed,2024-01-21 10:20:30,Hyatt
+TXN034,USR103,33.00,Food,completed,2024-01-21 11:30:00,Subway
+TXN035,USR104,,-,failed,2024-01-21 12:15:20,Nike
+TXN036,USR105,990.00,Electronics,completed,2024-01-22 08:10:00,Apple
+TXN037,USR106,45.50,Groceries,completed,2024-01-22 09:25:35,Aldi
+TXN038,USR107,180.00,Clothing,completed,2024-01-22 10:40:15,Uniqlo
+TXN039,USR108,25.00,Food,completed,2024-01-22 11:55:00,Panera
+TXN040,USR109,,-,failed,2024-01-22 13:05:45,Airbnb
+TXN041,USR110,350.00,Travel,completed,2024-01-23 08:30:00,Marriott
+TXN042,USR101,62.00,Groceries,completed,2024-01-23 09:40:20,Safeway
+TXN043,USR102,1100.00,Electronics,completed,2024-01-23 10:50:10,Samsung
+TXN044,USR103,29.99,Food,completed,2024-01-23 12:00:00,Pizza Hut
+TXN045,USR104,400.00,Clothing,completed,2024-01-23 13:10:30,Ralph Lauren
+TXN046,USR105,,-,failed,2024-01-24 08:45:00,Walmart
+TXN047,USR106,85.00,Groceries,completed,2024-01-24 09:55:40,Costco
+TXN048,USR107,275.00,Travel,completed,2024-01-24 11:05:15,Southwest Airlines
+TXN049,USR108,19.99,Food,completed,2024-01-24 12:15:00,Taco Bell
+TXN050,USR109,640.00,Electronics,completed,2024-01-24 13:25:50,Sony
+TXN051,USR110,155.00,Clothing,completed,2024-01-25 08:00:00,Gap
+TXN052,USR101,,-,failed,2024-01-25 09:10:30,Amazon
+TXN053,USR102,92.50,Groceries,completed,2024-01-25 10:20:00,Trader Joes
+TXN054,USR103,800.00,Travel,completed,2024-01-25 11:30:45,Hilton
+TXN055,USR104,38.00,Food,completed,2024-01-25 12:40:20,KFC
+TXN056,USR105,475.00,Electronics,completed,2024-01-26 08:15:00,LG
+TXN057,USR106,,-,failed,2024-01-26 09:25:10,Target
+TXN058,USR107,120.00,Clothing,completed,2024-01-26 10:35:45,Levis
+TXN059,USR108,55.00,Groceries,completed,2024-01-26 11:45:00,Publix
+TXN060,USR109,310.00,Travel,completed,2024-01-26 12:55:30,Enterprise

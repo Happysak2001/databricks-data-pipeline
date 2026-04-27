@@ -1,0 +1,60 @@
+{"log_id": "LOG001", "timestamp": "2024-01-15 10:23:46", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR101", "duration_ms": 120}
+{"log_id": "LOG002", "timestamp": "2024-01-15 11:05:13", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR102", "duration_ms": 95}
+{"log_id": "LOG003", "timestamp": "2024-01-15 11:45:34", "level": "ERROR", "service": "payment-service", "message": "Payment failed: invalid card details", "user_id": "USR103", "duration_ms": 340}
+{"log_id": "LOG004", "timestamp": "2024-01-15 12:10:06", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR104", "duration_ms": 110}
+{"log_id": "LOG005", "timestamp": "2024-01-15 13:22:19", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR101", "duration_ms": 88}
+{"log_id": "LOG006", "timestamp": "2024-01-15 14:00:00", "level": "WARN", "service": "auth-service", "message": "Multiple login attempts detected", "user_id": "USR103", "duration_ms": 200}
+{"log_id": "LOG007", "timestamp": "2024-01-15 14:30:15", "level": "INFO", "service": "auth-service", "message": "User login successful", "user_id": "USR105", "duration_ms": 75}
+{"log_id": "LOG008", "timestamp": "2024-01-15 15:00:00", "level": "ERROR", "service": "inventory-service", "message": "Item out of stock", "user_id": "USR106", "duration_ms": 500}
+{"log_id": "LOG009", "timestamp": "2024-01-16 09:15:45", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR105", "duration_ms": 102}
+{"log_id": "LOG010", "timestamp": "2024-01-16 09:55:23", "level": "ERROR", "service": "payment-service", "message": "Payment failed: insufficient funds", "user_id": "USR106", "duration_ms": 280}
+{"log_id": "LOG011", "timestamp": "2024-01-16 10:30:12", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR107", "duration_ms": 115}
+{"log_id": "LOG012", "timestamp": "2024-01-16 11:00:01", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR108", "duration_ms": 99}
+{"log_id": "LOG013", "timestamp": "2024-01-16 11:30:00", "level": "WARN", "service": "auth-service", "message": "Session expired for user", "user_id": "USR109", "duration_ms": 150}
+{"log_id": "LOG014", "timestamp": "2024-01-16 12:00:00", "level": "INFO", "service": "auth-service", "message": "User login successful", "user_id": "USR109", "duration_ms": 80}
+{"log_id": "LOG015", "timestamp": "2024-01-16 12:45:31", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR109", "duration_ms": 92}
+{"log_id": "LOG016", "timestamp": "2024-01-17 08:10:06", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR110", "duration_ms": 107}
+{"log_id": "LOG017", "timestamp": "2024-01-17 09:20:16", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR101", "duration_ms": 98}
+{"log_id": "LOG018", "timestamp": "2024-01-17 10:05:46", "level": "ERROR", "service": "payment-service", "message": "Payment failed: network timeout", "user_id": "USR102", "duration_ms": 5000}
+{"log_id": "LOG019", "timestamp": "2024-01-17 10:30:00", "level": "WARN", "service": "inventory-service", "message": "Low stock alert", "user_id": null, "duration_ms": 180}
+{"log_id": "LOG020", "timestamp": "2024-01-17 11:30:23", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR103", "duration_ms": 112}
+{"log_id": "LOG021", "timestamp": "2024-01-17 13:00:11", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR104", "duration_ms": 105}
+{"log_id": "LOG022", "timestamp": "2024-01-18 08:45:01", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR105", "duration_ms": 93}
+{"log_id": "LOG023", "timestamp": "2024-01-18 09:30:56", "level": "ERROR", "service": "payment-service", "message": "Payment failed: card expired", "user_id": "USR106", "duration_ms": 310}
+{"log_id": "LOG024", "timestamp": "2024-01-18 10:15:34", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR107", "duration_ms": 118}
+{"log_id": "LOG025", "timestamp": "2024-01-18 11:05:45", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR108", "duration_ms": 101}
+{"log_id": "LOG026", "timestamp": "2024-01-18 11:30:00", "level": "WARN", "service": "auth-service", "message": "Unusual login location detected", "user_id": "USR110", "duration_ms": 220}
+{"log_id": "LOG027", "timestamp": "2024-01-18 12:20:11", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR109", "duration_ms": 96}
+{"log_id": "LOG028", "timestamp": "2024-01-19 09:00:01", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR110", "duration_ms": 88}
+{"log_id": "LOG029", "timestamp": "2024-01-19 10:10:11", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR101", "duration_ms": 114}
+{"log_id": "LOG030", "timestamp": "2024-01-19 11:25:36", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR102", "duration_ms": 103}
+{"log_id": "LOG031", "timestamp": "2024-01-19 12:00:01", "level": "ERROR", "service": "payment-service", "message": "Payment failed: fraud detected", "user_id": "USR103", "duration_ms": 450}
+{"log_id": "LOG032", "timestamp": "2024-01-19 13:15:21", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR104", "duration_ms": 109}
+{"log_id": "LOG033", "timestamp": "2024-01-20 08:30:01", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR105", "duration_ms": 97}
+{"log_id": "LOG034", "timestamp": "2024-01-20 09:45:51", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR106", "duration_ms": 122}
+{"log_id": "LOG035", "timestamp": "2024-01-20 10:55:16", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR107", "duration_ms": 91}
+{"log_id": "LOG036", "timestamp": "2024-01-20 11:40:01", "level": "ERROR", "service": "payment-service", "message": "Payment failed: gateway timeout", "user_id": "USR108", "duration_ms": 6000}
+{"log_id": "LOG037", "timestamp": "2024-01-20 13:00:31", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR109", "duration_ms": 104}
+{"log_id": "LOG038", "timestamp": "2024-01-21 08:00:01", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR110", "duration_ms": 87}
+{"log_id": "LOG039", "timestamp": "2024-01-21 09:10:46", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR101", "duration_ms": 116}
+{"log_id": "LOG040", "timestamp": "2024-01-21 10:20:31", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR102", "duration_ms": 100}
+{"log_id": "LOG041", "timestamp": "2024-01-21 11:30:01", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR103", "duration_ms": 95}
+{"log_id": "LOG042", "timestamp": "2024-01-21 12:15:21", "level": "ERROR", "service": "payment-service", "message": "Payment failed: invalid CVV", "user_id": "USR104", "duration_ms": 290}
+{"log_id": "LOG043", "timestamp": "2024-01-22 08:10:01", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR105", "duration_ms": 108}
+{"log_id": "LOG044", "timestamp": "2024-01-22 09:25:36", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR106", "duration_ms": 94}
+{"log_id": "LOG045", "timestamp": "2024-01-22 10:40:16", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR107", "duration_ms": 119}
+{"log_id": "LOG046", "timestamp": "2024-01-22 11:55:01", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR108", "duration_ms": 102}
+{"log_id": "LOG047", "timestamp": "2024-01-22 13:05:46", "level": "ERROR", "service": "payment-service", "message": "Payment failed: daily limit exceeded", "user_id": "USR109", "duration_ms": 260}
+{"log_id": "LOG048", "timestamp": "2024-01-23 08:30:01", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR110", "duration_ms": 86}
+{"log_id": "LOG049", "timestamp": "2024-01-23 09:40:21", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR101", "duration_ms": 111}
+{"log_id": "LOG050", "timestamp": "2024-01-23 10:50:11", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR102", "duration_ms": 98}
+{"log_id": "LOG051", "timestamp": "2024-01-23 12:00:01", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR103", "duration_ms": 107}
+{"log_id": "LOG052", "timestamp": "2024-01-23 13:10:31", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR104", "duration_ms": 113}
+{"log_id": "LOG053", "timestamp": "2024-01-24 08:45:01", "level": "ERROR", "service": "payment-service", "message": "Payment failed: bank declined", "user_id": "USR105", "duration_ms": 320}
+{"log_id": "LOG054", "timestamp": "2024-01-24 09:55:41", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR106", "duration_ms": 90}
+{"log_id": "LOG055", "timestamp": "2024-01-24 11:05:16", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR107", "duration_ms": 123}
+{"log_id": "LOG056", "timestamp": "2024-01-24 12:15:01", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR108", "duration_ms": 106}
+{"log_id": "LOG057", "timestamp": "2024-01-24 13:25:51", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR109", "duration_ms": 99}
+{"log_id": "LOG058", "timestamp": "2024-01-25 08:00:01", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR110", "duration_ms": 115}
+{"log_id": "LOG059", "timestamp": "2024-01-25 09:10:31", "level": "ERROR", "service": "payment-service", "message": "Payment failed: card blocked", "user_id": "USR101", "duration_ms": 270}
+{"log_id": "LOG060", "timestamp": "2024-01-25 10:20:01", "level": "INFO", "service": "payment-service", "message": "Payment processed successfully", "user_id": "USR102", "duration_ms": 93}
