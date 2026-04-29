@@ -69,7 +69,7 @@ jobs:
             ${WORKSPACE_PATH}/02_transformation -l PYTHON -o
 
           databricks workspace import notebooks/03_aggregation.py \
-            ${WORKSPACE_PATH}/03_Aggregation -l PYTHON -o
+            ${WORKSPACE_PATH}/03_aggregation -l PYTHON -o
 
           databricks workspace import notebooks/04_reporting.py \
             ${WORKSPACE_PATH}/04_reporting -l PYTHON -o
