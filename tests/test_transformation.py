@@ -1,7 +1,7 @@
 import pytest
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as F
-from pyspark.sql.types import DoubleType
+from pyspark.sql.types import DoubleType, IntegerType, StringType, StructField, StructType
 
 
 @pytest.fixture(scope="session")
@@ -18,9 +18,17 @@ def spark():
 # ---------- Transaction Tests ----------
 
 def test_null_amount_filled(spark):
+    schema = StructType([
+        StructField("transaction_id", StringType(), True),
+        StructField("user_id",        StringType(), True),
+        StructField("amount",         DoubleType(), True),
+        StructField("category",       StringType(), True),
+        StructField("status",         StringType(), True),
+        StructField("timestamp",      StringType(), True),
+        StructField("merchant",       StringType(), True),
+    ])
     data = [("TXN001", "USR101", None, "Electronics", "completed", "2024-01-15 10:23:45", "BestBuy")]
-    cols = ["transaction_id", "user_id", "amount", "category", "status", "timestamp", "merchant"]
-    df = spark.createDataFrame(data, cols)
+    df = spark.createDataFrame(data, schema)
     df = df.withColumn("amount", F.col("amount").cast(DoubleType()))
     df = df.fillna({"amount": 0.0})
     assert df.filter(F.col("amount").isNull()).count() == 0
@@ -75,9 +83,17 @@ def test_txn_date_extracted(spark):
 # ---------- Log Tests ----------
 
 def test_log_null_user_id_filled(spark):
+    schema = StructType([
+        StructField("log_id",       StringType(),  True),
+        StructField("timestamp",    StringType(),  True),
+        StructField("level",        StringType(),  True),
+        StructField("service",      StringType(),  True),
+        StructField("message",      StringType(),  True),
+        StructField("user_id",      StringType(),  True),
+        StructField("duration_ms",  IntegerType(), True),
+    ])
     data = [("LOG001", "2024-01-15 10:00:00", "INFO", "payment-service", "msg", None, 100)]
-    cols = ["log_id", "timestamp", "level", "service", "message", "user_id", "duration_ms"]
-    df = spark.createDataFrame(data, cols)
+    df = spark.createDataFrame(data, schema)
     df = df.fillna({"user_id": "SYSTEM"})
     assert df.filter(F.col("user_id") == "SYSTEM").count() == 1
 
