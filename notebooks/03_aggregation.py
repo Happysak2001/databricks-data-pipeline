@@ -129,6 +129,7 @@ display(df_error_trends)
 # COMMAND ----------
 
 def write_gold(df, table_name):
+    print(f"Writing Gold table: pipeline_db.{table_name} ...")
     df.write.format("delta").mode("overwrite").saveAsTable(f"pipeline_db.{table_name}")
     print(f"Gold table written: pipeline_db.{table_name}")
 
