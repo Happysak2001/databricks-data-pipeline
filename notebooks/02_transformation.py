@@ -10,6 +10,8 @@
 from pyspark.sql import functions as F
 from pyspark.sql.types import DoubleType
 
+print("Pipeline v2 — Transformation started.")
+
 # COMMAND ----------
 # MAGIC %md
 # MAGIC ## Step 1: Read Bronze Tables
