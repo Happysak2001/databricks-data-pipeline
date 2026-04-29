@@ -53,6 +53,9 @@ Databricks Job (charitha-db-pipeline)
 
 ```
 databricks-data-pipeline/
+├── .github/
+│   └── workflows/
+│       └── pipeline.yml        # GitHub Actions CI/CD workflow
 ├── data/
 │   ├── transactions.csv        # Sample financial transactions (60 rows)
 │   ├── logs.json               # Sample system logs (60 rows)
@@ -62,10 +65,14 @@ databricks-data-pipeline/
 │   ├── 02_transformation.py    # Silver: clean, validate, partition
 │   ├── 03_aggregation.py       # Gold: summarize for reporting
 │   └── 04_reporting.py         # Business reports via SQL queries
+├── tests/
+│   ├── test_schema.py          # Schema and data quality validation tests
+│   └── test_transformation.py  # PySpark transformation logic tests
 ├── lambda/
 │   └── lambda_function.py      # AWS Lambda trigger function
 ├── utils/
 │   └── helpers.py              # Reusable utility functions
+├── requirements.txt            # Python dependencies
 └── README.md
 ```
 
@@ -179,6 +186,42 @@ BUCKET_NAME    = "your-bucket-name"
   DATABRICKS_JOB_ID = your_job_id
   ```
 - Add S3 trigger: All object create events on your bucket
+
+---
+
+## CI/CD Pipeline (GitHub Actions)
+
+Every `git push` to `main` automatically runs tests and deploys notebooks to Databricks.
+
+```
+git push
+    ↓
+GitHub Actions triggers
+    ↓
+Job 1: Run Tests         Job 2: Deploy Notebooks
+  ├── test_schema.py       (only runs if tests pass)
+  └── test_transformation    ├── 01_ingestion → Databricks
+        (10 test cases)      ├── 02_transformation → Databricks
+                             ├── 03_aggregation → Databricks
+                             └── 04_reporting → Databricks
+```
+
+### Tests
+| File | What it tests |
+|------|--------------|
+| `tests/test_schema.py` | File existence, required columns, no duplicates, valid status/level values |
+| `tests/test_transformation.py` | Null filling, uppercasing, timestamp parsing, slow flag logic |
+
+### How to Set Up CI/CD
+1. Go to GitHub repo → **Settings → Secrets and variables → Actions**
+2. Add two secrets:
+
+| Secret | Value |
+|--------|-------|
+| `DATABRICKS_HOST` | `https://your-workspace.cloud.databricks.com` |
+| `DATABRICKS_TOKEN` | your Databricks personal access token |
+
+3. Push any change → GitHub Actions runs automatically
 
 ---
 
